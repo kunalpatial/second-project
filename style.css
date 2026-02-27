@@ -1,0 +1,734 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.topp-header {
+    background-color: #303338;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+#left-part {
+    display: flex;
+    margin-bottom: 0;
+    padding: 1.25rem;
+    flex-wrap: wrap;
+
+
+}
+
+  #left-part  li {
+        font-weight: 2.5rem;
+        list-style: none;
+        padding-left: 0.625rem;
+        color: #ffffff;
+
+        i {
+            color: #f68220;
+            padding-left: 0.625rem;
+        }
+
+    }
+
+
+
+#right-part {
+    display: flex;
+    margin-bottom: 0;
+    padding: 1.25rem;
+}
+   #right-part li {
+        font-weight: 3.125rem;
+        list-style: none;
+        padding-left: 0.625rem;
+        color: #ffffff;
+        flex-wrap: wrap;
+    }
+
+
+.navbar-items {
+
+    ul {
+        gap: 0.625rem;
+        font-size: 0.9375rem;
+
+        li {
+            i {
+                color: #f68220;
+            }
+        }
+    }
+
+}
+
+.btn-nav {
+    background-color: #f68220;
+
+
+}
+
+.navbar a:hover {
+    color: #f68220;
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+#swiper1 {
+    height: 80vh;
+
+
+
+
+}
+
+.slide1 {
+    background-image: url(./images/slide1.jpg);
+}
+
+.slide2 {
+    background-image: url(./images/slide2.jpg);
+}
+
+.slide3 {
+    background-image: url(./images/slide3.jpg);
+}
+
+.content {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20vh;
+
+
+
+}
+
+.text-swiper {
+    font-size: 4.375rem;
+    font-weight: 800;
+}
+
+#btn-navbar {
+    border-radius: 0;
+    background-color: #f68220;
+    padding: 15px 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#overlap-box {
+    position: relative;
+    margin-top: -100px;
+    z-index: 2;
+}
+
+#hero-section {
+    background-color: #f3f3f3;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+
+
+
+}
+
+#hero-section:hover {
+    background-image: url(./images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg);
+    background-size: cover;
+    color: #f3f3f3;
+
+
+}
+
+.icon-box {
+    color: #f68220;
+    font-size: 2.5rem;
+}
+
+.read-more {
+    background-color: #f68220;
+    border-radius: 1.875rem;
+
+}
+
+#hero-section2 {
+    background-image: url(./images/vitali-adutskevich-B7hVEFTFUWs-unsplash.jpg);
+    background-size: cover;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    color:white;
+    background-color: #3f4144;
+    
+
+
+
+
+
+}
+
+.column-text {
+    font-weight: 600;
+    font-size: 3vh;
+
+}
+
+#paragraph-text {
+    text-align: start;
+    margin-top: 10vh;
+
+}
+
+#swiper2 {
+    height: 90vh;
+    display: flex;
+    position: relative;
+
+
+}
+
+.sticky-label {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: sticky;
+    height: 100vh;
+    background-color: #303338;
+    color: white;
+    font-size: 10vh;
+    font-weight: bold;
+    padding: 20px 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+#slide-card {
+
+    display: flex;
+    align-items: end;
+
+
+}
+
+.slide-content {
+    background-color: #ffffff;
+    padding: 5vh;
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 16px;
+    color: black;
+}
+
+
+.swiper-button-prev {
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    left: auto;
+    top: auto;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.swiper-button-next {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    top: auto;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.box-overlay {
+    margin-top: -50px;
+    background-color: #f3f3f3;
+    z-index: 10;
+    padding: 3vh;
+    display: inline-block;
+    text-align: start;
+
+
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.heading:hover {
+    color: #f68220;
+
+
+
+}
+
+#back-img {
+    margin-top: 3rem;
+}
+
+.section-full {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+#swiper3 {
+    width: 50%;
+}
+
+#para-text {
+    align-items: center;
+}
+
+.swiper-qoute {
+    color: #f68220;
+    font-size: 5rem;
+
+}
+
+#swiper-para {
+    padding-top: 100px;
+    width: 50%;
+    padding-left: 150px;
+
+
+}
+
+.list-item {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    i {
+        color: #f68220;
+    }
+}
+
+
+#swiper4 {
+    padding: 30px;
+    width: 180vh;
+
+
+
+}
+
+#swiper-logo {
+
+    img {
+        height: 100px;
+        width: 200px;
+    }
+}
+
+#map-text {
+
+    background-color: #F68220;
+    ;
+}
+
+#left-side {
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.map-icon {
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+#right-side {
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+    align-items: center;
+    background-color: #D8721C;
+}
+
+.footer {
+    background-color: #191F23;
+
+}
+
+#col1 {
+    align-items: start;
+    text-align: start;
+}
+
+.logo {
+    img {
+        width: 200px;
+
+
+    }
+
+
+}
+
+.para1 {
+    color: #f3f3f3;
+    margin-top: 10px;
+    opacity: 0.5;
+
+
+}
+
+#content {
+    display: flex;
+    color: #f3f3f3;
+    padding: 0;
+    gap: 10px;
+
+
+    list-style: none;
+
+    li {
+        padding: 0.1rem;
+        border: 1px dotted rgba(255, 255, 255, 0.2);
+        opacity: 0.7;
+
+
+    }
+
+}
+
+.head {
+    margin-top: 40px;
+    text-align: start;
+    color: #f3f3f3;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    padding: 10px;
+
+}
+
+.footer-paragraph {
+    margin-top: 20px;
+    color: #f3f3f3;
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+        padding: 8px;
+        opacity: 0.5;
+
+    }
+
+    p {
+        transition: transform 0.3 ease;
+        margin-bottom: 0;
+
+    }
+
+    p:hover {
+        color: #D8721C;
+        transform: translatex(5px);
+
+    }
+}
+
+#footer-details {
+    text-align: start;
+    color: #f3f3f3;
+
+    ul {
+        list-style: none;
+        margin-top: 20px;
+        padding-left: 0;
+        opacity: 0.5;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            i {
+                font-size: 15px;
+            }
+
+        }
+    }
+}
+
+.footer-bottom {
+    background-color: #14191C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f3f3f3;
+    padding: 12px;
+}
+
+   .footer-bottom p {
+        margin: 0;
+        opacity: 0.5;
+
+    }
+
+
+
+
+
+.floating-icons {
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 99;
+}
+
+.floating-icons a {
+    background-color: #ff6600;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.floating-icons a:hover {
+
+    transform: scale(1.1);
+}
+/* =========================================
+   GLOBAL RESPONSIVE IMPROVEMENTS
+========================================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container,
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Make all sections flexible */
+section {
+    padding: 60px 0;
+}
+
+/* Swiper text responsive */
+.text-swiper {
+    font-size: clamp(1.8rem, 5vw, 4rem);
+}
+
+/* Sticky label fix */
+.sticky-label {
+    font-size: clamp(2rem, 6vw, 8rem);
+}
+
+/* Hero paragraph spacing */
+#paragraph-text {
+    margin-top: 5vh;
+}
+
+/* Swiper widths auto */
+#swiper3 {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Remove fixed vh widths */
+#swiper4 {
+    width: 100%;
+}
+
+/* =========================================
+   MOBILE (0px – 575px)
+========================================= */
+@media (max-width: 575px) {
+
+    .topp-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #left-part,
+    #right-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #swiper1 {
+        height: 60vh;
+    }
+
+    .content {
+        margin-top: 10vh;
+        padding: 0 15px;
+    }
+
+    .text-swiper {
+        font-size: 1.8rem;
+    }
+
+    #swiper2 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sticky-label {
+        writing-mode: horizontal-tb;
+        transform: none;
+        height: auto;
+        font-size: 1.5rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .floating-icons {
+        left: 10px;
+        bottom: 20px;
+    }
+    #swiper-para{
+        display: none;
+    }
+}
+
+/* =========================================
+   LARGE MOBILE (576px – 767px)
+========================================= */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    #swiper1 {
+        height: 65vh;
+    }
+
+    .text-swiper {
+        font-size: 2.2rem;
+    }
+
+    #swiper3 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sticky-label {
+        font-size: 2rem;
+    }
+    #swiper-para{
+        display: none;
+    }
+}
+
+/* =========================================
+   TABLET (768px – 991px)
+========================================= */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #swiper1 {
+        height: 70vh;
+    }
+
+    .text-swiper {
+        font-size: 3rem;
+    }
+
+    #swiper3 {
+        width: 80%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
+    #swiper-para{
+        display: none;
+    }
+}
+
+/* =========================================
+   LAPTOP (992px – 1199px)
+========================================= */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #swiper1 {
+        height: 75vh;
+    }
+
+    .text-swiper {
+        font-size: 3.5rem;
+    }
+
+    #swiper3 {
+        width: 70%;
+    }
+}
+
+/* =========================================
+   DESKTOP (1200px – 1399px)
+========================================= */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    #swiper1 {
+        height: 80vh;
+    }
+
+    #swiper3 {
+        width: 60%;
+    }
+}
+
+/* =========================================
+   LARGE SCREENS (1400px+)
+========================================= */
+@media (min-width: 1400px) {
+
+    #swiper1 {
+        height: 90vh;
+    }
+
+    .text-swiper {
+        font-size: 4.5rem;
+    }
+
+    #swiper3 {
+        width: 50%;
+    }
+}
